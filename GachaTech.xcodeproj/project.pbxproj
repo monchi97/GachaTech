@@ -14,6 +14,10 @@
 		E54E5E2A1D09B0EE00B2BDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54E5E281D09B0EE00B2BDAC /* LaunchScreen.storyboard */; };
 		E54E5E351D09B0EF00B2BDAC /* GachaTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E5E341D09B0EF00B2BDAC /* GachaTechTests.swift */; };
 		E54E5E401D09B0EF00B2BDAC /* GachaTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E5E3F1D09B0EF00B2BDAC /* GachaTechUITests.swift */; };
+		E54E5E501D09B12B00B2BDAC /* background in Resources */ = {isa = PBXBuildFile; fileRef = E54E5E4D1D09B12B00B2BDAC /* background */; };
+		E54E5E511D09B12B00B2BDAC /* Defaults in Resources */ = {isa = PBXBuildFile; fileRef = E54E5E4E1D09B12B00B2BDAC /* Defaults */; };
+		E54E5E521D09B12B00B2BDAC /* monster in Resources */ = {isa = PBXBuildFile; fileRef = E54E5E4F1D09B12B00B2BDAC /* monster */; };
+		E54E5E541D09B46800B2BDAC /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54E5E531D09B46800B2BDAC /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E54E5E3B1D09B0EF00B2BDAC /* GachaTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E54E5E3F1D09B0EF00B2BDAC /* GachaTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaTechUITests.swift; sourceTree = "<group>"; };
 		E54E5E411D09B0EF00B2BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54E5E4D1D09B12B00B2BDAC /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = "../../../Downloads/2-ä¸­ç´ç´ æ/Gacha素材/GachaResources/background"; sourceTree = "<group>"; };
+		E54E5E4E1D09B12B00B2BDAC /* Defaults */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Defaults; path = "../../../Downloads/2-ä¸­ç´ç´ æ/Gacha素材/GachaResources/Defaults"; sourceTree = "<group>"; };
+		E54E5E4F1D09B12B00B2BDAC /* monster */ = {isa = PBXFileReference; lastKnownFileType = folder; name = monster; path = "../../../Downloads/2-ä¸­ç´ç´ æ/Gacha素材/GachaResources/monster"; sourceTree = "<group>"; };
+		E54E5E531D09B46800B2BDAC /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,9 @@
 		E54E5E131D09B0EE00B2BDAC = {
 			isa = PBXGroup;
 			children = (
+				E54E5E4D1D09B12B00B2BDAC /* background */,
+				E54E5E4E1D09B12B00B2BDAC /* Defaults */,
+				E54E5E4F1D09B12B00B2BDAC /* monster */,
 				E54E5E1E1D09B0EE00B2BDAC /* GachaTech */,
 				E54E5E331D09B0EF00B2BDAC /* GachaTechTests */,
 				E54E5E3E1D09B0EF00B2BDAC /* GachaTechUITests */,
@@ -99,6 +110,7 @@
 			children = (
 				E54E5E1F1D09B0EE00B2BDAC /* AppDelegate.swift */,
 				E54E5E211D09B0EE00B2BDAC /* ViewController.swift */,
+				E54E5E531D09B46800B2BDAC /* ResultViewController.swift */,
 				E54E5E231D09B0EE00B2BDAC /* Main.storyboard */,
 				E54E5E261D09B0EE00B2BDAC /* Assets.xcassets */,
 				E54E5E281D09B0EE00B2BDAC /* LaunchScreen.storyboard */,
@@ -231,7 +243,10 @@
 			files = (
 				E54E5E2A1D09B0EE00B2BDAC /* LaunchScreen.storyboard in Resources */,
 				E54E5E271D09B0EE00B2BDAC /* Assets.xcassets in Resources */,
+				E54E5E501D09B12B00B2BDAC /* background in Resources */,
+				E54E5E521D09B12B00B2BDAC /* monster in Resources */,
 				E54E5E251D09B0EE00B2BDAC /* Main.storyboard in Resources */,
+				E54E5E511D09B12B00B2BDAC /* Defaults in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +273,7 @@
 			files = (
 				E54E5E221D09B0EE00B2BDAC /* ViewController.swift in Sources */,
 				E54E5E201D09B0EE00B2BDAC /* AppDelegate.swift in Sources */,
+				E54E5E541D09B46800B2BDAC /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
